@@ -13,11 +13,11 @@ LICENSE = upsidedown.__license__
 with codecs.open('README.rst', encoding='utf-8') as readme:
     long_description = readme.read()
 
-setup(name='upsidedown',
+setup(name='ckuehl-upsidedown',
     version=VERSION,
     author=AUTHOR,
     author_email=EMAIL,
-    description='"Flip" characters in a string to create an "upside-down" impression.',
+    description='Fork that supports Python 3',
     long_description=long_description,
     url=URL,
     download_url='http://github.com/cburgmer/upsidedown/downloads',
@@ -34,9 +34,9 @@ setup(name='upsidedown',
         'Intended Audience :: Developers',
         'Development Status :: 5 - Production/Stable',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
         'License :: OSI Approved :: MIT License',
         'Topic :: Text Processing',
         ])
